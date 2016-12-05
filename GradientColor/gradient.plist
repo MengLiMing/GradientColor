@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>CAGradientLayer渐变</string>
+		<key>class</key>
+		<string>GrandientLayerVC</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Core Graphics</string>
+		<key>class</key>
+		<string>CGColorVC</string>
+	</dict>
+</array>
+</plist>

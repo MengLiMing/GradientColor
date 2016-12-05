@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3505581DF118BD006CFF28 /* gradient.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F3505571DF118BD006CFF28 /* gradient.plist */; };
+		0F35055B1DF11C2F006CFF28 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F35055A1DF11C2F006CFF28 /* MainViewController.m */; };
+		0F35055F1DF11EBC006CFF28 /* GrandientLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F35055E1DF11EBC006CFF28 /* GrandientLayerVC.m */; };
+		0F3505631DF1619A006CFF28 /* CGColorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3505621DF1619A006CFF28 /* CGColorVC.m */; };
 		0F4757011DF0014D00220553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4757001DF0014D00220553 /* main.m */; };
 		0F4757041DF0014D00220553 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4757031DF0014D00220553 /* AppDelegate.m */; };
-		0F4757071DF0014D00220553 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4757061DF0014D00220553 /* ViewController.m */; };
-		0F47570A1DF0014D00220553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4757081DF0014D00220553 /* Main.storyboard */; };
 		0F47570C1DF0014D00220553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F47570B1DF0014D00220553 /* Assets.xcassets */; };
 		0F47570F1DF0014D00220553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F47570D1DF0014D00220553 /* LaunchScreen.storyboard */; };
 		0F47571A1DF0014D00220553 /* GradientColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4757191DF0014D00220553 /* GradientColorTests.m */; };
@@ -35,13 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F3505571DF118BD006CFF28 /* gradient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gradient.plist; sourceTree = "<group>"; };
+		0F3505591DF11C2F006CFF28 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0F35055A1DF11C2F006CFF28 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0F35055D1DF11EBC006CFF28 /* GrandientLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrandientLayerVC.h; sourceTree = "<group>"; };
+		0F35055E1DF11EBC006CFF28 /* GrandientLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrandientLayerVC.m; sourceTree = "<group>"; };
+		0F3505611DF1619A006CFF28 /* CGColorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGColorVC.h; sourceTree = "<group>"; };
+		0F3505621DF1619A006CFF28 /* CGColorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGColorVC.m; sourceTree = "<group>"; };
 		0F4756FC1DF0014D00220553 /* GradientColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F4757001DF0014D00220553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F4757021DF0014D00220553 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F4757031DF0014D00220553 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0F4757051DF0014D00220553 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0F4757061DF0014D00220553 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0F4757091DF0014D00220553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F47570B1DF0014D00220553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F47570E1DF0014D00220553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F4757101DF0014D00220553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +84,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F35055C1DF11E92006CFF28 /* CAGradientLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0F35055D1DF11EBC006CFF28 /* GrandientLayerVC.h */,
+				0F35055E1DF11EBC006CFF28 /* GrandientLayerVC.m */,
+			);
+			name = CAGradientLayer;
+			sourceTree = "<group>";
+		};
+		0F3505601DF16181006CFF28 /* CoreGraphics渐变 */ = {
+			isa = PBXGroup;
+			children = (
+				0F3505611DF1619A006CFF28 /* CGColorVC.h */,
+				0F3505621DF1619A006CFF28 /* CGColorVC.m */,
+			);
+			name = "CoreGraphics渐变";
+			sourceTree = "<group>";
+		};
 		0F4756F31DF0014D00220553 = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +125,13 @@
 		0F4756FE1DF0014D00220553 /* GradientColor */ = {
 			isa = PBXGroup;
 			children = (
+				0F3505571DF118BD006CFF28 /* gradient.plist */,
 				0F4757021DF0014D00220553 /* AppDelegate.h */,
 				0F4757031DF0014D00220553 /* AppDelegate.m */,
-				0F4757051DF0014D00220553 /* ViewController.h */,
-				0F4757061DF0014D00220553 /* ViewController.m */,
-				0F4757081DF0014D00220553 /* Main.storyboard */,
+				0F3505591DF11C2F006CFF28 /* MainViewController.h */,
+				0F35055A1DF11C2F006CFF28 /* MainViewController.m */,
+				0F3505601DF16181006CFF28 /* CoreGraphics渐变 */,
+				0F35055C1DF11E92006CFF28 /* CAGradientLayer */,
 				0F47570B1DF0014D00220553 /* Assets.xcassets */,
 				0F47570D1DF0014D00220553 /* LaunchScreen.storyboard */,
 				0F4757101DF0014D00220553 /* Info.plist */,
@@ -207,6 +233,7 @@
 				TargetAttributes = {
 					0F4756FB1DF0014D00220553 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5MEUQ98276;
 						ProvisioningStyle = Automatic;
 					};
 					0F4757141DF0014D00220553 = {
@@ -246,9 +273,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3505581DF118BD006CFF28 /* gradient.plist in Resources */,
 				0F47570F1DF0014D00220553 /* LaunchScreen.storyboard in Resources */,
 				0F47570C1DF0014D00220553 /* Assets.xcassets in Resources */,
-				0F47570A1DF0014D00220553 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F4757071DF0014D00220553 /* ViewController.m in Sources */,
 				0F4757041DF0014D00220553 /* AppDelegate.m in Sources */,
+				0F35055B1DF11C2F006CFF28 /* MainViewController.m in Sources */,
+				0F3505631DF1619A006CFF28 /* CGColorVC.m in Sources */,
 				0F4757011DF0014D00220553 /* main.m in Sources */,
+				0F35055F1DF11EBC006CFF28 /* GrandientLayerVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +340,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0F4757081DF0014D00220553 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F4757091DF0014D00220553 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0F47570D1DF0014D00220553 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5MEUQ98276;
 				INFOPLIST_FILE = GradientColor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mlm.GradientColor;
@@ -435,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5MEUQ98276;
 				INFOPLIST_FILE = GradientColor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mlm.GradientColor;
@@ -507,6 +530,7 @@
 				0F47572B1DF0014D00220553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F47572C1DF0014D00220553 /* Build configuration list for PBXNativeTarget "GradientColorTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +539,7 @@
 				0F47572E1DF0014D00220553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F47572F1DF0014D00220553 /* Build configuration list for PBXNativeTarget "GradientColorUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +548,7 @@
 				0F4757311DF0014D00220553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

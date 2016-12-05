@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  GrandientLayerVC.h
 //  GradientColor
 //
-//  Created by my on 2016/12/1.
+//  Created by my on 2016/12/2.
 //  Copyright © 2016年 my. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface GrandientLayerVC : UIViewController
 
 @end
-
